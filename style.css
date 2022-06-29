@@ -1,14 +1,23 @@
+html{
+  min-height: 100%;
+  background-image:url("images/bg.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
 body {
     color: white;
     /* margin: 0px;
     padding: 0px; */
-    background-image: url("images/bg.jpg");
+/*     background-image: url("images/bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     /* height: 5000px */
     /* width: 5000px; */
-    height: 1800px;
+/*     height: 1800px; */
   }
 
   .navi {
