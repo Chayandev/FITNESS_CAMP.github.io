@@ -110,10 +110,9 @@ body {
   }
 
   .btn:hover {
-    background-color: #F5F5F5;
+    background-color:GRAY;
     /* text-decoration: solid ; */
-    color: rgb(0, 236, 181);
-
+    color: rgb(0, 255, 195);
   }
 
   /* Style all font awesome icons */
