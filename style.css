@@ -485,7 +485,7 @@ hr {
   .image span {
   font-size: 52px;
   }
-  .copywright span {
+  .copywright {
  font-size: 15px;
   }
 }
