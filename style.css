@@ -242,7 +242,9 @@ hr {
   font-weight: bold;
 }
 @media (min-width:1240px) {
-
+ body{
+   margin-bottom:0px
+  }
   
   #Home:before {
     height: 600px;
@@ -354,15 +356,4 @@ hr {
     margin-top: 20px;
   }
 }
-@meida (min-height:610px)
-  {
-    #Home:Before{
-     height:100%; 
-     }
-    #Home
-    {
-      height:450px:
-    }
-    
-    
-}
+
