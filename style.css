@@ -244,12 +244,12 @@ hr {
 @media screen and (max-width: 1240px),screen and (max-height:600px) {
 
   #Home:before {
-    height: 600px;
+    height: 800px;
     width: 100%;
   }
 
   #Home {
-    height: 730px;
+    height: 420px;
     outline: none;
     margin-left: 1rem;
     margin-top: 9rem;
