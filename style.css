@@ -4,11 +4,13 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
 body {
   color: white;
   background: linear-gradient(to top, rgb(164, 224, 202), rgb(111, 103, 111));
 
 }
+
 #Home:before {
   content: "";
   position: absolute;
@@ -25,12 +27,14 @@ body {
   /* padding-bottom: 200px; */
 
 }
+
 .navi {
 
   display: block;
   width: 60%;
   margin: 0px 250px;
 }
+
 .logo {
 
   display: inline-block;
@@ -38,17 +42,20 @@ body {
   top: 15px;
   left: 60px;
 }
+
 .logo img {
   margin: auto;
   padding: 4px 6px;
   filter: invert(100%);
 }
+
 .logo div {
   font-family: 'Koulen', cursive;
   text-align: center;
   line-height: 25px;
   font-size: 19px;
 }
+
 .social_buttons {
   display: inline;
   /* border: 2px solid rgb(0, 255, 102); */
@@ -59,31 +66,37 @@ body {
   width: 0px;
   /* padding: 0px px; */
 }
+
 .buttons {
-  
+
   position: absolute;
   top: 18px;
   right: 18px;
 }
+
 .navbar {
   display: inline-block;
   margin-top: 20px;
-  }
+}
+
 .navbar li {
   display: inline-block;
 
   font-size: 18px;
   font-family: 'Kdam Thmor Pro', sans-serif;
 }
+
 .navbar li a {
   color: rgb(212, 248, 241);
   text-decoration: none;
   padding: 0px 15px;
 }
+
 .navbar li a:hover {
   text-decoration: overline;
   color: rgb(0, 236, 181);
 }
+
 .btn {
   margin: auto;
   padding: 3px 10px;
@@ -95,11 +108,13 @@ body {
   /* position: fixed; */
   cursor: pointer;
 }
+
 .btn:hover {
   background-color: GRAY;
   /* text-decoration: solid ; */
   color: rgb(0, 255, 195);
 }
+
 .fa {
   padding: 8px;
   font-size: 5px;
@@ -108,21 +123,26 @@ body {
   text-decoration: none;
   border-radius: 4px;
 }
+
 .fa:hover {
   opacity: 0.9;
 }
+
 .fa-facebook {
   background: linear-gradient(to left, rgb(5, 138, 255), rgb(23, 101, 191));
   color: white;
 }
+
 .fa-twitter {
   background: linear-gradient(to left, rgb(50, 163, 219), rgb(32, 173, 255));
   color: white;
 }
+
 .fa-instagram {
   background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
   color: white;
 }
+
 #Home {
   display: flex;
   margin-left: 5rem;
@@ -147,14 +167,17 @@ body {
   color: rgb(231, 187, 118);
   margin-bottom: 2s0px;
 }
+
 #Home .up {
   margin-top: -60px;
 }
+
 .degine {
   display: grid;
   grid-template-rows: 2fr;
   grid-gap: 10px;
 }
+
 summary {
   text-align: center;
   border: 2px solid gray;
@@ -164,6 +187,7 @@ summary {
   background-color: black;
   padding-bottom: 5px;
 }
+
 .grid {
   background-color: rgb(0, 0, 0);
   border: 2px solid gray;
@@ -174,9 +198,11 @@ summary {
   text-align: center;
   margin-top: 20px;
 }
+
 summary:hover {
   cursor: pointer;
 }
+
 .box {
   border: 2px solid rgb(166, 148, 148);
   margin-top: 10px;
@@ -185,8 +211,9 @@ summary:hover {
   padding: 10px 10px;
   background: linear-gradient(to right, rgba(181, 170, 137, 0.88), rgba(188, 172, 198, 0.835));
   border-radius: 4px;
-  box-shadow:3px 5px 5px 2px rgba(179, 0, 255, 0.136);
+  box-shadow: 3px 5px 5px 2px rgba(179, 0, 255, 0.136);
 }
+
 .content {
 
   text-align: center;
@@ -194,12 +221,14 @@ summary:hover {
   font-size: 18px;
 
 }
+
 .navi ul li span {
   animation: eff 2s linear infinite;
   color: transparent;
   font-size: larger;
   font-weight: bolder;
 }
+
 @keyframes eff {
   0% {
     background: linear-gradient(#ff8c08d8, rgb(255, 0, 0));
@@ -211,6 +240,7 @@ summary:hover {
     -webkit-background-clip: text;
   }
 }
+
 hr {
   margin-top: 20px;
   margin-bottom: 10px;
@@ -218,6 +248,7 @@ hr {
   margin-right: 10px;
   color: rgba(106, 105, 108, 0.15);
 }
+
 .contacts {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -227,26 +258,84 @@ hr {
   justify-content: space-between;
   justify-content: space-around;
 }
+
 .email {
   text-align: center;
   font-size: 300;
   font-weight: bold;
 
 }
+
 .email p {
   font-style: italic;
 }
+
 .ph {
   text-align: center;
   font-size: 300;
   font-weight: bold;
 }
+
+.image {
+  /* position: absolute; */
+  height: 364px;
+  width: 100%;
+  background-image: url("images/one_pic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+  /* z-index: -1; */
+  opacity: 1;
+
+}
+
+.image h1 {
+  /* margin-top: 10px; */
+  padding: 10px 10px;
+  font-family: 'Vast Shadow', cursive;
+  ;
+  font-weight: bolder;
+  font-size: 45px;
+  color: rgb(253, 158, 4);
+  opacity: 1;
+}
+
+.image span {
+
+  font-family: 'Bungee Shade', cursive;
+  /* font-family: 'Faster One', cursive; */
+  font-size: 132px;
+  font-weight: bold;
+  color: transparent;
+  font-weight: bolder;
+  animation: animate 2.5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    background: linear-gradient(#18f8e9ed, rgba(255, 208, 0, 0.942));
+    -webkit-background-clip: text;
+  }
+
+  50% {
+    background: linear-gradient(#ff9100, rgba(106, 95, 200, 0.971));
+    -webkit-background-clip: text;
+
+  }
+
+  100% {
+    background: linear-gradient(#3cee95f9, rgb(199, 121, 255));
+    -webkit-background-clip: text;
+  }
+}
+
 @media (max-width:1240px) {
-    body
-  {
+  body {
     margin-bottom: 0px;
   }
-    #Home:before {
+
+  #Home:before {
     height: 600px;
     width: 100%;
   }
@@ -296,7 +385,8 @@ hr {
     /* color: rgb(142, 27, 27); */
 
   }
-.logo div {
+
+  .logo div {
     font-family: 'Koulen', cursive;
     text-align: center;
     line-height: 16px;
@@ -355,5 +445,32 @@ hr {
   .grid {
     margin-top: 20px;
   }
+  image {
+    /* position: absolute; */
+    height: 300px;
+    width: 100%;
+    background-image: url("images/one_pic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    /* z-index: -1; */
+    opacity: 1;
+  
+  }
+  
+  .image h1 {
+    /* margin-top: 10px; */
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-family: 'Vast Shadow', cursive;
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgb(253, 158, 4);
+    opacity: 1;
+  }
+  
+  .image span {
+  font-size: 52px;
+  }
 }
-
