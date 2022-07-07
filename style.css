@@ -241,7 +241,7 @@ hr {
   font-size: 300;
   font-weight: bold;
 }
-@media(max-width: 1240px) {
+@media screen and (max-width: 1240px),screen and (max-height:600px) {
 
   #Home:before {
     height: 600px;
