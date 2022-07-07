@@ -243,13 +243,18 @@ hr {
 }
 @media screen and (max-width: 1240px),screen and (max-height:600px) {
 
+  body
+  {
+    height:auto;
+    width:100%;
+  }
   #Home:before {
-    height: 800px;
+    height: 700px;
     width: 100%;
   }
 
   #Home {
-    height: 420px;
+    height: 410px;
     outline: none;
     margin-left: 1rem;
     margin-top: 9rem;
