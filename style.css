@@ -330,9 +330,6 @@ hr {
   }
 }
 .copywright{
- 
-  /* margin-top:10px;
-  margin-bottom: 0px; */
    padding-top: 20px;
    padding-bottom: 14px;
    background-color: black;
@@ -485,5 +482,8 @@ hr {
   
   .image span {
   font-size: 52px;
+  }
+  .copywright span {
+ font-size: 15px;
   }
 }
