@@ -1,32 +1,279 @@
-html{
-  min-height: 100vh;
-  min-width:  100vw;
-  background-image:url("images/bg.jpg") ;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  color: white;
+  background: linear-gradient(to top, rgb(164, 224, 202), rgb(111, 103, 111));
+
+}
+#Home:before {
+  content: "";
+  position: absolute;
+  height: 664px;
+  width: 100%;
+  background-image: url("images/bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  /* padding-bottom: 200px; */
+
+}
+.navi {
+
+  display: block;
+  width: 60%;
+  margin: 0px 250px;
+}
+.logo {
+
+  display: inline-block;
+  position: absolute;
+  top: 15px;
+  left: 60px;
+}
+.logo img {
+  margin: auto;
+  padding: 4px 6px;
+  filter: invert(100%);
+}
+.logo div {
+  font-family: 'Koulen', cursive;
+  text-align: center;
+  line-height: 25px;
+  font-size: 19px;
+}
+.social_buttons {
+  display: inline;
+  /* border: 2px solid rgb(0, 255, 102); */
+  position: absolute;
+  right: 34px;
+  top: 200px;
+  position: fixed;
+  width: 0px;
+  /* padding: 0px px; */
+}
+.buttons {
+  
+  position: absolute;
+  top: 18px;
+  right: 18px;
+}
+.navbar {
+  display: inline-block;
+  margin-top: 20px;
+  }
+.navbar li {
+  display: inline-block;
+
+  font-size: 18px;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.navbar li a {
+  color: rgb(212, 248, 241);
+  text-decoration: none;
+  padding: 0px 15px;
+}
+.navbar li a:hover {
+  text-decoration: overline;
+  color: rgb(0, 236, 181);
+}
+.btn {
+  margin: auto;
+  padding: 3px 10px;
+  background-color: black;
+  color: rgb(171, 205, 205);
+  border-radius: 4px;
+  border: 2px solid rgb(81, 96, 99);
+  font-size: 15px;
+  /* position: fixed; */
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: GRAY;
+  /* text-decoration: solid ; */
+  color: rgb(0, 255, 195);
+}
+.fa {
+  padding: 8px;
+  font-size: 5px;
+  width: 2rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.fa:hover {
+  opacity: 0.9;
+}
+.fa-facebook {
+  background: linear-gradient(to left, rgb(5, 138, 255), rgb(23, 101, 191));
+  color: white;
+}
+.fa-twitter {
+  background: linear-gradient(to left, rgb(50, 163, 219), rgb(32, 173, 255));
+  color: white;
+}
+.fa-instagram {
+  background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+  color: white;
+}
+#Home {
+  display: flex;
+  margin-left: 5rem;
+  margin-top: 10rem;
+  flex-direction: column;
+  font-size: 100px;
 }
 
+#Home span {
+  color: rgb(96, 226, 185);
+  font-family: 'Chonburi', cursive;
+  font-size: 122px;
+  font-weight: bold;
+}
 
-body {
-    color: white;
-    /* margin: 0px;
-    padding: 0px; */
-/*     background-image: url("images/bg.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-    /* height: 5000px */
-    /* width: 5000px; */
-/*     height: 1800px; */
+#Home h1 {
+  display: block;
+  font-size: 20px;
+  font-style: calc();
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(231, 187, 118);
+  margin-bottom: 2s0px;
+}
+#Home .up {
+  margin-top: -60px;
+}
+.degine {
+  display: grid;
+  grid-template-rows: 2fr;
+  grid-gap: 10px;
+}
+summary {
+  text-align: center;
+  border: 2px solid gray;
+  border-top: none;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background-color: black;
+  padding-bottom: 5px;
+}
+.grid {
+  background-color: rgb(0, 0, 0);
+  border: 2px solid gray;
+  border-bottom: none;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  padding: 0px 10px 10px 0px;
+  text-align: center;
+  margin-top: 20px;
+}
+summary:hover {
+  cursor: pointer;
+}
+.box {
+  border: 2px solid rgb(166, 148, 148);
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px 10px;
+  background: linear-gradient(to right, rgba(181, 170, 137, 0.88), rgba(188, 172, 198, 0.835));
+  border-radius: 4px;
+  box-shadow:3px 5px 5px 2px rgba(179, 0, 255, 0.136);
+}
+.content {
+
+  text-align: center;
+  color: black;
+  font-size: 18px;
+
+}
+.navi ul li span {
+  animation: eff 2s linear infinite;
+  color: transparent;
+  font-size: larger;
+  font-weight: bolder;
+}
+@keyframes eff {
+  0% {
+    background: linear-gradient(#ff8c08d8, rgb(255, 0, 0));
+    -webkit-background-clip: text;
+  }
+
+  100% {
+    background: linear-gradient(#3ce6ca, rgb(217, 0, 255));
+    -webkit-background-clip: text;
+  }
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgba(106, 105, 108, 0.15);
+}
+.contacts {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+.email {
+  text-align: center;
+  font-size: 300;
+  font-weight: bold;
+
+}
+.email p {
+  font-style: italic;
+}
+.ph {
+  text-align: center;
+  font-size: 300;
+  font-weight: bold;
+}
+@media(max-width: 1240px) {
+
+  #Home:before {
+    height: 600px;
+    width: 100%;
+  }
+
+  #Home {
+    height: 412px;
+    outline: none;
+    margin-left: 1rem;
+    margin-top: 9rem;
+    font-size: 50px;
+    margin-bottom: 2px;
+  }
+
+  #Home h1 {
+    display: block;
+    font-size: 10px;
+    margin-bottom: 2px;
+  }
+
+  #Home span {
+    font-size: 55px;
+    font-weight: bold;
+
   }
 
   .navi {
-    /* border: 2px solid rgb(0, 13, 255); */
+
     display: block;
-    /* left: 50px; */
     width: 50%;
-    margin: 0px 250px;
+    margin: 0px 150px;
   }
 
   .logo {
@@ -34,143 +281,75 @@ body {
     display: inline-block;
     position: absolute;
     top: 15px;
-    left: 60px;
+    left: 20px;
 
     /* width:40% ; */
   }
 
   .logo img {
     margin: auto;
-    padding: 4px 6px;
+    padding: 2px 3px;
     filter: invert(100%);
     /* color: rgb(142, 27, 27); */
 
   }
-
-  .logo div {
+.logo div {
     font-family: 'Koulen', cursive;
     text-align: center;
-    line-height: 25px;
-    font-size: 19px;
+    line-height: 16px;
+    font-size: 11px;
   }
 
-  .social_buttons {
-    display: inline;
-    /* border: 2px solid rgb(0, 255, 102); */
-    position: absolute;
-    right: 35px;
-    top: 200px;
-    position: fixed;
-    width: 0px;
-    /* padding: 0px px; */
+  #Home .up {
+    margin-top: -60px;
+  }
+
+  .btn {
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 2px 5px;
+    font-size: 10px;
+    /* position: fixed; */
+    cursor: pointer;
+  }
+
+  .navbar li {
+    display: inline-block;
+    /* display: flex;
+    flex-wrap: wrap; */
+    font-size: 10px;
+  }
+
+  .navbar li a {
+    padding: 0px 5px;
+  }
+
+  .fa {
+    padding: 7px;
+    font-size: 4px;
+    width: 2rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
   }
 
   .buttons {
     /* border: 2px solid red; */
     position: absolute;
     top: 18px;
-    right: 18px;
-
+    right: 13px;
   }
 
-  .navbar {
-    display: inline-block;
+  .social_buttons {
+    right: 30px;
+    top: 180px;
+    position: fixed;
+    width: 0px;
   }
 
-  .navbar li {
-    display: inline-block;
-    font-size: 18px;
-    font-family: 'Kdam Thmor Pro', sans-serif;
-
-
+  .grid {
+    margin-top: 20px;
   }
-
-  .navbar li a {
-    color: rgb(212, 248, 241);
-    text-decoration: none;
-    padding: 0px 15px;
-
-  }
-
-  .navbar li a:hover {
-    text-decoration:  overline  ;
-    color: rgb(0, 236, 181);
-
-  }
-
-  .btn {
-    margin: auto;
-    padding: 3px 10px;
-    background-color: black;
-    color: rgb(171, 205, 205);
-    border-radius: 4px;
-    border: 2px solid rgb(81, 96, 99);
-    font-size: 15px;
-    cursor: pointer;
-  }
-
-  .btn:hover {
-    background-color:GRAY;
-    /* text-decoration: solid ; */
-    color: rgb(0, 255, 195);
-  }
-
-  /* Style all font awesome icons */
-  .fa {
-    padding: 8px;
-    font-size: 5px;
-    width: 20px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 4px;
-
-  }
-
-  /* Add a hover effect if you want */
-  .fa:hover {
-    opacity: 0.9;
-  }
-
-  /* Set a specific color for each brand */
-
-  /* Facebook */
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-
-  /* Twitter */
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-
-  .fa-instagram {
-    background: #f09433;
-    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
-  }
-
-  .container {
-    margin: 250px 40px;
-    padding: 3;
-    font-size: 100px;
-  }
-
-  .container span {
-    color: rgb(96, 226, 185);
-    font-family: 'Chonburi', cursive;
-    font-size:122px;
-    font-weight: bold;
-    
-  }
-  .container h1{
-    display: block;
-    font-size: 20px;
-    font-style: calc();
-    font-weight: bolder;
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(231, 187, 118);
-  } 
+}
