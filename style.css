@@ -242,11 +242,8 @@ hr {
   font-weight: bold;
 }
 @media (min-width:1240px) {
- body{
-   margin-bottom:0px
-  }
-  
-  #Home:before {
+    
+    #Home:before {
     height: 600px;
     width: 100%;
   }
@@ -257,7 +254,7 @@ hr {
     margin-left: 1rem;
     margin-top: 9rem;
     font-size: 50px;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
   }
 
   #Home h1 {
