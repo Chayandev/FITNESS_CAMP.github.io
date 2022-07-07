@@ -278,7 +278,7 @@ hr {
 
 .image {
   /* position: absolute; */
-  height: 364px;
+  height: 500px;
   width: 100%;
   background-image: url("images/one_pic.jpg");
   background-size: cover;
@@ -447,7 +447,7 @@ hr {
   }
   image {
     /* position: absolute; */
-    height: 300px;
+    height: 400px;
     width: 100%;
     background-image: url("images/one_pic.jpg");
     background-size: cover;
@@ -456,13 +456,14 @@ hr {
     text-align: center;
     /* z-index: -1; */
     opacity: 1;
+    
   
   }
   
   .image h1 {
     
-    padding-top: 20px;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 90px;
     font-family: 'Vast Shadow', cursive;
     font-weight: bolder;
     font-size: 25px;
