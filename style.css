@@ -241,8 +241,11 @@ hr {
   font-size: 300;
   font-weight: bold;
 }
-@media (min-width:1240px) {
-    
+@media (max-width:1240px) {
+    body
+  {
+    margin-bottom: 0px;
+  }
     #Home:before {
     height: 600px;
     width: 100%;
