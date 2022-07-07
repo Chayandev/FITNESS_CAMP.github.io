@@ -241,20 +241,16 @@ hr {
   font-size: 300;
   font-weight: bold;
 }
-@media screen and (max-width: 1240px),screen and (max-height:600px) {
+@media (min-width:1240px) {
 
-  body
-  {
-    height:auto;
-    width:100%;
-  }
+  
   #Home:before {
-    height: 700px;
+    height: 600px;
     width: 100%;
   }
 
   #Home {
-    height: 410px;
+    height: 415px;
     outline: none;
     margin-left: 1rem;
     margin-top: 9rem;
@@ -357,4 +353,16 @@ hr {
   .grid {
     margin-top: 20px;
   }
+}
+@meida (min-height:610px)
+  {
+    #Home:Before{
+     height:100%; 
+     }
+    #Home
+    {
+      height:450px:
+    }
+    
+    
 }
