@@ -329,6 +329,18 @@ hr {
     -webkit-background-clip: text;
   }
 }
+.copywright{
+ 
+  /* margin-top:10px;
+  margin-bottom: 0px; */
+   padding-top: 20px;
+   padding-bottom: 14px;
+   background-color: black;
+   text-align: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 20px;
+   font-weight: 400;
+}
 
 @media (max-width:1240px) {
   body {
