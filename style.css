@@ -330,6 +330,9 @@ hr {
   }
 }
 .copywright{
+ 
+  /* margin-top:10px;
+  margin-bottom: 0px; */
    padding-top: 20px;
    padding-bottom: 14px;
    background-color: black;
@@ -338,7 +341,6 @@ hr {
    font-size: 20px;
    font-weight: 400;
 }
-
 @media (max-width:1240px) {
   body {
     margin-bottom: 0px;
@@ -463,14 +465,14 @@ hr {
     background-repeat: no-repeat;
     background-position: center center;
     text-align: center;
-    /* z-index: -1; */
+    border: 2px solid rgb(140, 139, 140);
+    border-radius: 6px;
     opacity: 1;
-    
   
   }
   
   .image h1 {
-    
+    /* margin-top: 10px; */
     padding-top: 30px;
     padding-bottom: 110px;
     font-family: 'Vast Shadow', cursive;
